@@ -1,0 +1,3 @@
+/* 전체 선택자 : 우선순위 0. css초기화(reset) */
+* {margin: 0;}
+.red {color: red;}
