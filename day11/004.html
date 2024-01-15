@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+            a,b     a와 b(나열)
+            a b     a에 소속된 b(하위 선택자)
+        */
+        .menu div {
+            display: inline-block;
+            border: 2px solid skyblue;
+            width: 150px;
+            text-align: center;
+            height: 40px;
+            /* 내용이 한줄일때 수직 가운데 정렬 */
+            line-height: 40px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div>학원 소개</div>
+        <div>교육 과정</div>
+        <div>취업지원센터</div>
+        <div>고객센터</div>
+    </div>
+    
+    <div>
+        <h1>새로운 과정 소개</h1>
+        <p>어쩌구 저쩌구</p>
+    </div>
+</body>
+</html>
