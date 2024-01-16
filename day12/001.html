@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">jQuery</script>
+    <title>부트스트랩</title>
+    <style>
+        div.container{
+        /* css는 단위를 절대로 생략할 수 없다 */
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- css나 자바스크립트를 외부 링크로 가져오는 것 : CDN (Content Delivery Network)
+        jQuery를 CDN으로 추가하십시오
+
+        CDN :  CSS, JS에서 외부 라이브러리를 링크로 포함시키는 방법
+        부트스트랩은 절대값이 상대값으로 너비, 높이, 마진 등을 저장
+     -->
+     <button class="btn btn-primary">까꿍</button>
+     <button class="btn btn-outline-primary">까꿍</button>
+    <div class="container">
+     <div class="d-grid mb-3 mt-4">
+        <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+     </div>
+     <div class="d-grid">
+        <button type="button" class="btn btn-outline-primary btn-block">Full-Width Button</button>
+     </div>
+    </div>
+    </body>
+</html>
