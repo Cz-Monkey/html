@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #app {
+            border: 1px solid blue;
+         }
+        .left, .right{
+            width: 100px; height: 100px; background-color: red;
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        float된 요소는 공중에 더서 이동
+        그래서 부모의 높이가 0이되고 아래쪽 요소들이 위로 치고 올라온다
+        부모의 높이가 정상적으로 계산되게 만들자 -> clear
+        (float은 반드시 clear되어야 한다)
+     -->
+    <div id="app" style="overflow: hidden;">
+        <div class="left">왼쪽</div>
+        <div class="right">오른쪽</div>
+    </div>
+</body>
+</html>
