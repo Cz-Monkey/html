@@ -1,0 +1,24 @@
+<html>
+    <form action="http://localhost:5000/smaple1" method="get">
+        <!-- 
+            id 속성 : 프론트(css, js)에서 사용하는 이름
+            name 속성 : 백에서 사용하는 이름
+
+            http://localhost:5000/sample?irum=spring&password=1234
+         -->
+        <input name="irum" id="irum" value="spring"><br>
+        <input name="password" value="1234"><br>
+        <input id="nai" value="20"><br>
+        <button>보내기</button>
+    </form>
+    <body>
+        <!-- front와 back은 둘 다 백에서 운영할 수 있다(MVC, model2)
+                - only web
+                - front -> back : form
+                - back -> front : back기술마다 다르다
+            front와 back을 별개로 운영할 수 있다(rest 방식)
+                - 프론트와 백을 분리
+                  (web, 안드로이드, ios 프론트를 백과 동시에 개발할 수 있다)
+        -->
+    </body>
+</html>
